@@ -14,4 +14,8 @@
 
 > 將陸續增加支援資料庫⋯
 
-  For developmeng: you need one more tinymce plugin to let it work.
+---
+
+##### For developmeng
+
+you need one more tinymce plugin to let it work.
