@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Chih-hung Cheng, NCTU"/>
+		<title>ArticleMixer</title>
+		<link rel="stylesheet" href="reset.css" type="text/css"/>
+		<link rel="stylesheet" href="browse.css" type="text/css"/>
+		<link rel="stylesheet" href="buttons.css" type="text/css"/>
+		<script src="/tinymce/tinymce.min.js"></script>
+		<script src="/back/database.js"></script>
+	</head>
+	<body view="edit">
+		<div id="nav">
+			<nav>
+				<ul class="nav-left">
+					<li class="brand">ArticleMixer</li>
+					<!-- <li>Get from <span id="domainSelect"></span></li> -->
+					<li><span id="total">0</span> sets</li>
+					<li>sort by: <select class="form-select" id="sortBySelect">
+						<option value="published_at">Published Date</option>
+						<option value="added_on">Collected Date</option>
+					</select><label class="form-checkbox"><input type="checkbox" id="ascOrNot" value="ASC">ASC</label></li>
+					<li><span class="gbw button" id="refreshbtn">OK</span></li>
+				</ul>
+				<ul class="nav-right" id="navRight">
+					<li><spqn id="delBtn" class="link">clear</spqn></li>
+					<li><span class="gbw button" id="expandBtn" status="close">編輯</span></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="container">
+			<div class="article">
+				<div class="article-wrap loading" id="articlesDiv">
+					目前還沒有文章喔^^
+				</div>
+			</div>
+		</div>
+		<script src="browse.js"></script>
+	</body>
+</html>

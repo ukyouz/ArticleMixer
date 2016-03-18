@@ -1,0 +1,138 @@
+body {
+	font-size: 16px;
+	line-height: 1.4;
+	min-height: 250px;
+	margin: auto;
+	font-family: "Source Sans Pro", "Myriad Pro", Arial, PingFangTC-Regular, "Heiti TC", "Microsoft JhengHei", "微軟正黑體", sans-serif;
+}
+
+h2 {
+	font-size: 1.5em;
+	margin-top: .83em;
+	margin-bottom: .83em;
+}
+
+p {
+	margin-top: 0;
+}
+
+img {
+	max-width: 75%;
+	margin: auto;
+}
+
+blockquote {
+	background: #eee;
+	/*margin: 0;*/
+	margin-left: 0;
+	margin-right: 0;
+	padding: 1em 1.5em;
+}
+
+.hidden {
+	display: none;
+}
+
+.container {
+	padding-top: 3.5em;
+	padding-bottom: 2em;
+}
+
+#nav {
+	background: #eee;
+	position: fixed;
+	right: 0;
+	left: 0;
+	to: 0;
+	z-index: 5;
+	-webkit-box-shadow: 0 0 8px 0 gray;
+	-moz-box-shadow: 0 0 8px 0 gray;
+	box-shadow: 0 0 8px 0 gray;
+}
+
+nav {
+	max-width: 980px;
+	margin: auto;
+}
+
+nav .nav-right {
+	float: right;
+}
+
+nav > ul,
+nav > ul > li {
+	display: inline-block;
+}
+
+nav > ul > li {
+	padding: 1em;
+}
+
+nav > ul > li .button {
+	font-size: 0.85em;
+	margin: -0.5em -1em;
+	padding: 0.5em 1em;
+}
+
+nav > ul > li.brand {
+	font-weight: 600;
+}
+
+nav > ul > li .link {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+nav > ul > li .link:hover {
+	color: #888;
+}
+
+.article {
+	margin-top: 1em;
+	text-align: left;
+}
+
+.article-wrap {
+	max-width: 715px;
+	margin: auto;
+}
+
+.article-wrap.loading {
+	background: url('/loading.gif') no-repeat top center;
+}
+
+.article-set {
+	margin-bottom: 1em;
+}
+
+.article-set-title {
+	position: relative;
+	overflow: hidden;
+}
+
+.article-set-title .date {
+	/*font-style: italic;*/
+	color: gray;
+	margin-bottom: -1em;
+}
+
+.mce-tinymce.mce-container.mce-panel,
+.mce-edit-area.mce-container.mce-panel.mce-stack-layout-item.mce-first.mce-last {
+	border: none;
+}
+
+.mce-content-body *[contentEditable=false] *[contentEditable=true]:hover {
+	outline-width: 0px;
+}
+.mce-content-body *[contentEditable=false] *[contentEditable=true]:focus {
+	outline-width: 1px;
+	outline-color: #66afe9;
+	border-radius: 4px;
+}
+
+.mce-content-body *[contentEditable=false][data-mce-selected] {
+	border-color: #66afe9;
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+}

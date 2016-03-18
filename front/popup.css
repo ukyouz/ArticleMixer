@@ -1,0 +1,45 @@
+html {
+	max-width: 350px;
+}
+
+article {
+	border-top: 1px solid silver;
+	text-align: center;
+	padding: 0px 0px;
+}
+
+article:first-child {
+	border: none;
+}
+
+h2 {
+	margin: 5px 0;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+.button {
+	width: 90%;
+	padding: 2px 0;
+	margin: 10px 0;
+	text-align: center;
+	display: inline-block;
+}
+
+#articlesDiv div {
+	list-style: none;
+	padding: 5px 10px;
+	position: relative;
+}
+#articlesDiv div:nth-child(odd) {
+	background: #eee;
+}
+#articlesDiv h4, #articlesDiv p {
+	color: gray;
+}
+#articlesDiv .hide {
+	display: none;
+}

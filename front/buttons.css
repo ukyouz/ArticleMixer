@@ -1,0 +1,45 @@
+.gbb {
+	color: #fff;
+	border: 1px solid #4370d0;
+	border-radius: 3px;
+	color: #3f81ec;
+    cursor: pointer;
+}
+.gbb:hover {
+	border-color: #4d90fe;
+    color: #3173dd;
+    -webkit-box-shadow: 0 1px 1px #ccc;
+    -moz-box-shadow: 0 1px 1px #ccc;
+    box-shadow: 0 1px 1px #ccc;
+}
+.gbb:hover:active {
+	border-color: #377cea;
+    box-shadow: none;
+}
+.gbg {
+	color: #fff;
+	border: 1px solid #42be38;
+	border-radius: 3px;
+	background: #4fe342; /* Old browsers */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4fe342), color-stop(100%,#4cdb40)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #4fe342 0%,#4cdb40 100%); /* Chrome10+,Safari5.1+ */
+    background: linear-gradient(top,  #4fe342 0%,#4cdb40 100%); /* W3C */
+    cursor: pointer;
+}
+.gbw {
+	color: #000;
+	border: 1px solid silver;
+	border-radius: 3px;
+	background: #fff;
+    cursor: pointer;
+}
+.gbw:hover {
+	border-color: #d0d0d0;
+	-webkit-box-shadow: 0 1px 1px #ccc;
+    -moz-box-shadow: 0 1px 1px #ccc;
+    box-shadow: 0 1px 1px #ccc;
+}
+.gbw:hover:active {
+	border-color: silver;
+    box-shadow: none;
+}
