@@ -12,10 +12,9 @@
 1. 取得權限之後，搜尋任意關鍵字在第一個結果連結上按「右鍵」»「在新分頁中開啟連結」
 2. 點選左上角 logo 重新回到首頁，然後就可以正常運作
 
-> 將陸續增加支援資料庫⋯
+#### 將陸續增加⋯
 
----
 
-##### For developmeng
+## For Developers
 
 you need one more tinymce plugin to let it work.
