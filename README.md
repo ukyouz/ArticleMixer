@@ -13,3 +13,5 @@
 2. 點選左上角 logo 重新回到首頁，然後就可以正常運作
 
 > 將陸續增加支援資料庫⋯
+
+  For developmeng: you need one more tinymce plugin to let it work.
